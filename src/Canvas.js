@@ -25,9 +25,9 @@ function rand() {
 class Demo extends Component {
   state = {
     brushColor: rand(),
-    canvasHeight: 350,
-    canvasWidth: 380,
-    brushRadius: 4,
+    canvasHeight: 720,
+    canvasWidth: 720,
+    brushRadius: 3,
     lazyRadius: 8
   }
   lineLength = 0
